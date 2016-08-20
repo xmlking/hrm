@@ -4,6 +4,8 @@ Web-Bluetooth Demo: Heart Rate Service
 
 This simple demo uses the Web-Bluetooth library to connect to a device broadcasting a Heart Rate Service characteristic and reads the heart rate.
 
+Live Demo [https://xmlking.github.io/hrm/public/](https://xmlking.github.io/hrm/public/)
+
 ### Requirements
 
 Web-Bluetooth is behind an experimental flag in Chrome 45+. Go to `chrome://flags/#enable-web-bluetooth` to enable the flag. Restart Chrome and you should be good to go.
