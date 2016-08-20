@@ -1,0 +1,29 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
+ </head>
+ <body>
+   <div class='hr-table'>
+     <div class='hr-row'>
+       <div class='hr-cell'>
+         <div class='hr-header'>Heart Rate:</div>
+         <div class='hr-value' id='hr'>0</div>
+       </div>
+       <div class='hr-cell'>
+         <div class='hr-header'>Average:</div>
+         <div class='hr-value' id='avg'>0.0</div>
+       </div>
+     </div>
+   </div>
+   <form><button>Start</button></form>
+     <script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    event.stopPropagation();
+    event.preventDefault();
+    let hrm = new HeartRateMonitor();
+    hrm.start();
+  });
+</script>
+ </body>
+</html>

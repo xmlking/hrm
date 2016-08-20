@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: gray;
+}
+
+.hr-cell {
+  display: table-cell;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.hr-header {
+  font-size: 1.5em;;
+}
+
+.hr-value {
+  font-size: 3.0em;
+}
+
+.hr-row {
+  font-family: "Roboto";
+  display: table-row;
+}
+
+.hr-table {
+  height: 90%;
+  width: 100%;
+  display: table;
+}
+
+button {
+  padding: 8px 0px 8px 0px;
+  margin: 6px 0px 6px 0px;
+  min-width: 88px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
